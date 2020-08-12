@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
         app:srcCompat="@drawable/boss"
         android:background="@drawable/group_person_shap"/>
 
@@ -20,24 +20,24 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
-        android:textSize="18sp"
+        android:layout_marginTop="@dimen/marginTop_username"
+        android:textSize="@dimen/textSize_username"
         android:textStyle="bold"
-        android:padding="8dp"
+        android:padding="@dimen/padding_username"
         android:text="@string/groups_username" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23 "
+        android:layout_marginTop="@dimen/marginTop_linearlayout"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:padding="8dp"
+            android:layout_margin="@dimen/layout_margin_textview2"
+            android:padding="@dimen/padding_textview2"
             android:text="@string/groups_btn_pages"
             android:background="@drawable/group_textview_shap"
             android:textColor="@color/white" />
@@ -46,8 +46,8 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:padding="8dp"
+            android:layout_margin="@dimen/layout_margin_textview3"
+            android:padding="@dimen/layout_margin_textview3"
             android:text="@string/groups_btn_finish"
             android:background="@drawable/group_textview_shap"
             android:textColor="@color/white"/>
@@ -58,18 +58,18 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="@dimen/textSize_textview6"
         android:text="@string/groups_et_search_hint" />
 
     <EditText
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
+        android:layout_marginHorizontal="@dimen/layout_marginHorizontal_textview5"
         android:background="@drawable/group_edittext_search"
-        android:padding="16dp"
+        android:padding="@dimen/padding_textview5"
         android:drawableStart="@drawable/ic_search"
-        android:layout_marginVertical="4dp"
+        android:layout_marginVertical="@dimen/layout_marginVertical_textview5"
         android:drawablePadding="5dp"
         android:ems="10"
         android:text="@string/groups_et_search_hint"
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:textSize="11sp"
         android:textStyle="bold"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="@dimen/textview_marfintop"
         android:textColor="@color/groups_textView_textColor"
         android:text="@string/groups_et_search_hint2" />
 
@@ -89,7 +89,7 @@
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="11sp"
+        android:textSize="@dimen/textSize_textview7"
         android:textStyle="bold"
         android:layout_marginTop="15dp"
         android:textColor="@color/groups_textView_creatGroup_textColor"

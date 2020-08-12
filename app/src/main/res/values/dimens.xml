@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_width">110dp</dimen>
+    <dimen name="image_height">110dp</dimen>
+    <dimen name="textview_marfintop">5dp</dimen>
+    <dimen name="textSize_username">18sp</dimen>
+    <dimen name="padding_username">8dp</dimen>
+    <dimen name="marginTop_username">33dp</dimen>
+    <dimen name="marginTop_linearlayout">23dp</dimen>
+    <dimen name="layout_margin_textview2">8dp</dimen>
+    <dimen name="padding_textview2">8dp</dimen>
+    <dimen name="layout_margin_textview3">8dp</dimen>
+    <dimen name="padding_textview3">8dp</dimen>
+    <dimen name="textSize_textview6">18sp</dimen>
+    <dimen name="layout_marginHorizontal_textview5">24dp</dimen>
+    <dimen name="padding_textview5">16dp</dimen>
+    <dimen name="layout_marginVertical_textview5">4dp</dimen>
+    <dimen name="textSize_textview7">11sp</dimen>
+    <dimen name="textSize_edittext">11sp</dimen>
+
+</resources>
