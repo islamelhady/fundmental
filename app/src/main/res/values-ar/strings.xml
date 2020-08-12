@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">اخبار</string>
+    <string name="groups_btn_pages">450 صفخة</string>
+    <string name="groups_btn_finish">3 مرات</string>
+    <string name="groups_et_search_hint">ابحث عن مجموعه</string>
+    <string name="groups_et_search_hint2">ادخل المجموعه التي تريد البحث عنها في  </string>
+    <string name="groups_username">اسم المستخدم </string>
+    <string name="groups_creatnewgroup">انشاء جروب جديد </string>
+</resources>
